@@ -1,0 +1,8 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:web="http://tempuri.org/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <web:GetComprobanteByIdAsync>
+         <web:id>1</web:id>
+      </web:GetComprobanteByIdAsync>
+   </soapenv:Body>
+</soapenv:Envelope>

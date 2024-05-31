@@ -1,0 +1,18 @@
+version: '3.4'
+services:
+  facturadbcontextnamespace:
+    image: facturadbcontextnamespace
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=db;Database=FacturaDb;User=sa;Password=jgsrT52Dw4;
+    depends_on:
+      - db
+  db:
+    image: "mcr.microsoft.com/mssql/server"
+    environment:
+      SA_PASSWORD: "jgsrT52Dw4"
+      ACCEPT_EULA: "Y"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
