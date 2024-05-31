@@ -1,22 +1,17 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System.ServiceModel;
+using Microsoft.EntityFrameworkCore;
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
 using SoapCore;
-using Microsoft.Extensions.DependencyInjection.Extensions;
 
 using IFacturaServiceNamespace;
 using FacturaServiceNamespace;
 using Microsoft.Extensions.Configuration;
 using FacturaDbContextNamespace;
-using Microsoft.EntityFrameworkCore;
 
 namespace facturaServicio
 {
@@ -40,7 +35,13 @@ namespace facturaServicio
             services.AddMvc();
 
             services.AddDbContext<FacturaDbContext>(options =>
-                options.UseMySql(Configuration.GetConnectionString("DefaultConnection"), new MySqlServerVersion(new Version(8, 0, 21))));
+                options.UseMySql(
+                    Configuration.GetConnectionString("DefaultConnection"),
+                    new MySqlServerVersion(new Version(8, 0, 21)), // especifica la versión del servidor aquí
+                    mysqlOptions => mysqlOptions.EnableRetryOnFailure(
+                        maxRetryCount: 10, 
+                        maxRetryDelay: TimeSpan.FromSeconds(30), 
+                        errorNumbersToAdd: null)));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
