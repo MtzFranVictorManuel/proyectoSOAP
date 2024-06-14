@@ -13,6 +13,8 @@ using FacturaServiceNamespace;
 using Microsoft.Extensions.Configuration;
 using FacturaDbContextNamespace;
 
+using Microsoft.AspNetCore.Http; 
+
 namespace facturaServicio
 {
     public class Startup
@@ -66,21 +68,22 @@ namespace facturaServicio
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
+            // Add this line
 
-            app.UseRouting();
+                        if (env.IsDevelopment())
+                        {
+                            app.UseDeveloperExceptionPage();
+                        }
 
-            // app.UseEndpoints(endpoints =>
-            // {
-            //     endpoints.MapGet("/", async context =>
-            //     {
-            //          await context.Response.WriteAsync("Hello World!");
-            //         //await context.Response.WriteAsync(Calculadora.suma(3,4));
-            //     });
-            // });
+                        app.UseRouting();
+
+                        // app.UseEndpoints(endpoints =>
+                        // {
+                        //     endpoints.MapGet("/", async context =>
+                        //     {
+                        //          await context.Response.WriteAsync("Hello World!");
+                        //     });
+                        // });
 
             app.UseEndpoints(endpoints =>
             {
