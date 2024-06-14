@@ -1,5 +1,9 @@
 CREATE DATABASE FacturaDb;
 USE FacturaDb;
+
+CREATE USER pruebas@localhost IDENTIFIED BY 'Zx2Nv021O';
+GRANT ALL ON FacturaDb.* to pruebas@localhost;
+
 CREATE TABLE Factura (
     Id INT PRIMARY KEY AUTO_INCREMENT, -- Primary Key with auto-increment
     Version VARCHAR(10) NOT NULL,

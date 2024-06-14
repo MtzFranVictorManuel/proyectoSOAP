@@ -19,3 +19,7 @@ services:
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
     ports:
       - "3307:3306"
+
+  pueba:
+    image: "alpine"
+    command: ["tail", "-f", "/dev/null"]

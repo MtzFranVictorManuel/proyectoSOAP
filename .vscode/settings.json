@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/84b43e04-9166-4efc-87e0-15ebb75bfbd5/resourceGroups/pruebas/providers/Microsoft.Web/sites/facturasSoap",
+    "appService.deploySubpath": "facturaServicio"
+}

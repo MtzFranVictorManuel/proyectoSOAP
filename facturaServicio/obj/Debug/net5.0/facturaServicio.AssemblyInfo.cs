@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("facturaServicio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02516839b2ba6e7db334a2125cefc714963f3b0a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e43f1ab4b0066699d63b6627655bf20f18348cf9")]
 [assembly: System.Reflection.AssemblyProductAttribute("facturaServicio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("facturaServicio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
