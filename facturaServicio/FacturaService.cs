@@ -27,6 +27,7 @@ namespace FacturaServiceNamespace
 
         public async Task<Factura> CreateFacturaAsync(Factura factura)
         {
+            factura.Id = 0; // Deja que SQL Server genere el valor
             _context.Facturas.Add(factura);
             await _context.SaveChangesAsync();
             return factura;
