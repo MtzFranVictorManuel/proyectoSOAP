@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "2SOhgQoJ7zyMwoN6jnSXTRJJy6nNSL6SrCU/caGSPysUwrQbfWMhJMf5dko0kmJS/V8KLeGeerTG9zGbL6wHwg==",
+  "dgSpecHash": "hR2tKUiOJ6BnbJdTW3T6D8D8NVx3F90rgKRoxA7/C/dk9KiHCz1l1NlaPM8zikObew39B43P9TaXzVPRTTJbEw==",
   "success": true,
   "projectFilePath": "/Users/victormanuel/Documents/Programacion/78935/proyectoSOAP/facturaServicio/facturaServicio.csproj",
   "expectedPackageFiles": [
-    "/Users/victormanuel/.nuget/packages/microsoft.aspnetcore.connections.abstractions/5.0.17/microsoft.aspnetcore.connections.abstractions.5.0.17.nupkg.sha512",
+    "/Users/victormanuel/.nuget/packages/microsoft.aspnetcore.connections.abstractions/6.0.27/microsoft.aspnetcore.connections.abstractions.6.0.27.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.1.1/microsoft.aspnetcore.http.abstractions.2.1.1.nupkg.sha512",
-    "/Users/victormanuel/.nuget/packages/microsoft.aspnetcore.http.features/5.0.17/microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "/Users/victormanuel/.nuget/packages/microsoft.aspnetcore.http.features/2.1.1/microsoft.aspnetcore.http.features.2.1.1.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/microsoft.aspnetcore.mvc.abstractions/2.1.38/microsoft.aspnetcore.mvc.abstractions.2.1.38.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/microsoft.aspnetcore.routing.abstractions/2.1.1/microsoft.aspnetcore.routing.abstractions.2.1.1.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
@@ -22,10 +22,11 @@
     "/Users/victormanuel/.nuget/packages/microsoft.extensions.configuration.abstractions/5.0.0/microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.1/microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "/Users/victormanuel/.nuget/packages/microsoft.extensions.features/6.0.27/microsoft.extensions.features.6.0.27.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
-    "/Users/victormanuel/.nuget/packages/microsoft.extensions.primitives/5.0.1/microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "/Users/victormanuel/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/microsoft.identity.client/4.14.0/microsoft.identity.client.4.14.0.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/microsoft.identitymodel.jsonwebtokens/5.6.0/microsoft.identitymodel.jsonwebtokens.5.6.0.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/microsoft.identitymodel.logging/5.6.0/microsoft.identitymodel.logging.5.6.0.nupkg.sha512",
@@ -43,7 +44,7 @@
     "/Users/victormanuel/.nuget/packages/runtime.native.system/4.3.0/runtime.native.system.4.3.0.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/soapcore/1.1.0.49/soapcore.1.1.0.49.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
-    "/Users/victormanuel/.nuget/packages/system.codedom/5.0.0/system.codedom.5.0.0.nupkg.sha512",
+    "/Users/victormanuel/.nuget/packages/system.codedom/6.0.0/system.codedom.6.0.0.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/system.collections.concurrent/4.3.0/system.collections.concurrent.4.3.0.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
@@ -66,7 +67,7 @@
     "/Users/victormanuel/.nuget/packages/system.io/4.3.0/system.io.4.3.0.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/system.io.filesystem/4.3.0/system.io.filesystem.4.3.0.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/system.io.filesystem.primitives/4.3.0/system.io.filesystem.primitives.4.3.0.nupkg.sha512",
-    "/Users/victormanuel/.nuget/packages/system.io.pipelines/5.0.2/system.io.pipelines.5.0.2.nupkg.sha512",
+    "/Users/victormanuel/.nuget/packages/system.io.pipelines/6.0.3/system.io.pipelines.6.0.3.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/system.linq/4.3.0/system.linq.4.3.0.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/system.linq.expressions/4.3.0/system.linq.expressions.4.3.0.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/system.net.nameresolution/4.3.0/system.net.nameresolution.4.3.0.nupkg.sha512",
@@ -117,10 +118,7 @@
     "/Users/victormanuel/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/Users/victormanuel/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "/Users/victormanuel/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "/Users/victormanuel/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "/Users/victormanuel/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.17/microsoft.netcore.app.host.osx-x64.5.0.17.nupkg.sha512",
-    "/Users/victormanuel/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "/Users/victormanuel/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
